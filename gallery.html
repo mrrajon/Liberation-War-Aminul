@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="A curated photographic gallery capturing key moments, places, and people from the Liberation War of Bangladesh (1971). view high-resolution historical images.">
+  <meta name="keywords"
+    content="Bangladesh Liberation War Photos, 1971 War Gallery, Muktijuddho Images, Historical Photography Bangladesh">
+
+  <title>Photographs Gallery - Liberation War Archive</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <h1>Liberation War Archive</h1>
+      </a>
+
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="documents.html">Documents</a></li>
+          <li><a href="interviews.html">Interviews</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h2>Photographic Journey of 1971</h2>
+        <p>A curated selection of photographs capturing key moments, places, and people defining the Liberation War.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+
+        <div class="gallery-filters text-center">
+          <button class="filter-btn active" data-filter="all">All Photos</button>
+          <button class="filter-btn" data-filter="events">Key Events</button>
+          <button class="filter-btn" data-filter="locations">Locations</button>
+          <button class="filter-btn" data-filter="people">People</button>
+        </div>
+
+        <div class="gallery-grid">
+
+          <div class="gallery-item" data-category="events" data-src="assets/images/gallery/highres/event-1.jpg"
+            data-caption="Freedom fighters celebrating victory in Dhaka, Dec 1971.">
+            <img src="image/duqument.png" alt="Freedom fighters celebrating">
+            <div class="gallery-overlay">
+              <div class="overlay-content">
+                <i class="fas fa-search-plus zoom-icon"></i>
+                <p class="caption">Victory Celebration, Dhaka</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="people" data-src="assets/images/gallery/highres/people-1.jpg"
+            data-caption="Portrait of a Sector Commander outlining strategy.">
+            <img src="image/freedom.png" alt="Sector Commander portrait">
+            <div class="gallery-overlay">
+              <div class="overlay-content">
+                <i class="fas fa-search-plus zoom-icon"></i>
+                <p class="caption">Sector Commander Portrait</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="locations" data-src="assets/images/gallery/highres/location-1.jpg"
+            data-caption="The historic grounds of the Mujibnagar Government oath-taking ceremony.">
+            <img src="image/m.png" alt="Mujibnagar memorial">
+            <div class="gallery-overlay">
+              <div class="overlay-content">
+                <i class="fas fa-search-plus zoom-icon"></i>
+                <p class="caption">Mujibnagar Grounds</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item" data-category="events" data-src="assets/images/gallery/highres/event-"
+            data-caption="Refugees c2.jpgrossing the border seeking safety during the conflict.">
+            <img src="image/genarel.png" alt="Refugees crossing border">
+            <div class="gallery-overlay">
+              <div class="overlay-content">
+                <i class="fas fa-search-plus zoom-icon"></i>
+                <p class="caption">Refugees Crossing Border</p>
+              </div>
+            </div>
+          </div>
+<div class="gallery-item" data-category="events" data-src="assets/images/gallery/highres/event-"
+  data-caption="Refugees c2.jpgrossing the border seeking safety during the conflict.">
+  <img src="image/genarel.png" alt="Refugees crossing border">
+  <div class="gallery-overlay">
+    <div class="overlay-content">
+      <i class="fas fa-search-plus zoom-icon"></i>
+      <p class="caption">Refugees Crossing Border</p>
+    </div>
+  </div>
+</div><div class="gallery-item" data-category="events" data-src="assets/images/gallery/highres/event-"
+  data-caption="Refugees c2.jpgrossing the border seeking safety during the conflict.">
+  <img src="image/genarel.png" alt="Refugees crossing border">
+  <div class="gallery-overlay">
+    <div class="overlay-content">
+      <i class="fas fa-search-plus zoom-icon"></i>
+      <p class="caption">Refugees Crossing Border</p>
+    </div>
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h4>Liberation War Archive</h4>
+        <p>Dedicated to preserving the history.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="documents.html">Documents</a></li>
+          <li><a href="interviews.html">Interviews</a></li>
+          <li><a href="gallery.html">Photo Gallery</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <p>&copy; 2023 Liberation War Archive.</p>
+    </div>
+  </footer>
+
+
+  <div id="lightbox-modal" class="lightbox-modal">
+    <span class="close-modal">&times;</span>
+    <div class="modal-content">
+      <img class="modal-image" src="" alt="High Resolution View">
+      <div class="modal-caption-bar">
+        <p class="modal-caption-text"></p>
+        <a href="" class="download-btn" download target="_blank">
+          <i class="fas fa-download"></i> Download High-Res
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>

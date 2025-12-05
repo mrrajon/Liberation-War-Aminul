@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Contact the Liberation War Archive administrators for inquiries, feedback, or to contribute historical documents and photographs.">
+  <meta name="keywords"
+    content="Contact Liberation War Archive, Submit 1971 Documents, Feedback Bangladesh War, Contribute Photos Muktijuddho">
+
+  <title>Contact Us - Liberation War Archive</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">
+        <h1>Liberation War Archive</h1>
+      </a>
+
+      <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="documents.html">Documents</a></li>
+          <li><a href="interviews.html">Interviews</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h2>Contact the Archive</h2>
+        <p>Have inquiries, feedback, or materials to contribute? Reach out to our administrators.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container grid-contact">
+
+        <div class="contact-form-wrapper">
+          <h3>Send Us a Message</h3>
+          [cite_start]<p class="form-description">Use the form below for general inquiries, feedback, or to propose
+            materials for the archive. For contributions, you can attach files directly[cite: 29].</p>
+
+          <form action="#" method="POST" enctype="multipart/form-data" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Your Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject:</label>
+              <select id="subject" name="subject" required>
+                <option value="">Select a Subject</option>
+                <option value="general-inquiry">General Inquiry</option>
+                <option value="feedback">Website Feedback</option>
+                <option value="material-contribution">Material Contribution (Documents/Photos)</option>
+                <option value="technical-support">Technical Support</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Your Message:</label>
+              <textarea id="message" name="message" rows="7" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="attachment">Attach Files (Optional, Max 10MB per file):</label>
+              <input type="file" id="attachment" name="attachment[]" multiple accept=".pdf,.doc,.docx,.jpg,.jpeg,.png">
+              <small class="form-help-text">For large files or multiple items, please mention in message.</small>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <div class="contact-info-wrapper">
+          <h3>Direct Contact</h3>
+          [cite_start]<p>If you prefer direct communication or have urgent matters, please use the contact details
+            below[cite: 30].</p>
+
+          <ul class="contact-details">
+            <li>
+              <i class="fas fa-envelope"></i>
+              <strong>Email:</strong> <a href="mailto:info@liberationarchive.bd">info@liberationarchive.bd</a>
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>
+              <strong>Phone:</strong> <a href="tel:+880123456789">+880 123 456789</a> (Mon-Fri, 9am-5pm BST)
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <strong>Address:</strong> Liberation War Archive,<br>123 Archive Road, Dhaka,<br>Bangladesh
+            </li>
+          </ul>
+
+          <div class="social-links">
+            <h4>Follow Us:</h4>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h4>Liberation War Archive</h4>
+        <p>Dedicated to preserving the history and memories of the Liberation War of Bangladesh.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="documents.html">Documents Catalog</a></li>
+          <li><a href="interviews.html">Interviews</a></li>
+          <li><a href="gallery.html">Photo Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Administrators</h4>
+        <p>Email: info@liberationarchive.bd</p>
+        <p><a href="contact.html">Use Contact Form</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <p>&copy; 2023 Liberation War Archive. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+
+</html>
